@@ -5,7 +5,7 @@ This is a tool to analyze WSJT log files.
 ## Needed individualisations
 
 In order to use this tool, you must either insert your locator into the variable
-´´´YOUR_LOCATOR´´´ or set it before running the main function.
+```YOUR_LOCATOR``` or set it before running the main function.
 
 
 
@@ -13,7 +13,7 @@ In order to use this tool, you must either insert your locator into the variable
 
 Running is relatively simple:
 
-´´´python3 wsjtx_log_analyzer.py <Path to your log file>´´´
+```python3 wsjtx_log_analyzer.py <Path to your log file>```
 
 ## Known issues
 
