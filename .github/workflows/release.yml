@@ -28,8 +28,8 @@ jobs:
         # Ergebnis liegt in dist/main.exe
 
       - name: Upload EXE to Release
-        uses: softprops/action-gh-release@v2
+        uses: actions/upload-release-asset@v2
         with:
           files: dist/main.exe
         env:
-          GITHUB_TOKEN: ${{ secrets.WSJT_LOG }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
