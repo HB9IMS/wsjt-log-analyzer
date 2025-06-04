@@ -5,7 +5,7 @@ This is a tool to analyze WSJT log files.
 ## Needed individualisations
 
 In order to use this tool, you must either insert your locator into the variable
-```YOUR_LOCATOR``` or set it before running the main function.
+`YOUR_LOCATOR` or set it before running the main function.
 
 
 
@@ -13,7 +13,9 @@ In order to use this tool, you must either insert your locator into the variable
 
 Running is relatively simple:
 
-```python3 wsjtx_log_analyzer.py <Path to your log file>```
+`python3 main.py <Path to your log file>`
+or if you are running the .exe file
+`main.exe <Path to your log file>`
 
 ## Known issues
 
@@ -25,7 +27,16 @@ Also, all all the distances are in kilometers; if you wish miles, you can adjust
 I higly encurage you to mess around with the number of bins, the axes of the plots etc.!
 It may drasticly enhance the understanding of your propagation. 
 
-In case you have the will and determination, you could also modify the script to take in the received messages and display in real time or something like that...
+In case you have the will and determination, you could also modify the script
+to take in the received messages and display in real time or something like that...
+
+### About the Windows executable:
+
+Let's put it that way: I was approached by @HB9RYZ who asked me to release `.exe`.
+I _quickly_ threw something together, adjusted the code a little and did some sparse tests.
+In my view the lovely part is that you can __modify__ the code to suit your usecases,
+however, with an `.exe`, this is currently not possible and it won't be my first priority,
+though it would make sense. Before would much rather prioritize a GUI.
 
 ## Results
 
