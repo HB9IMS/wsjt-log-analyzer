@@ -24,12 +24,12 @@ jobs:
 
       - name: Build .exe with pyinstaller
         run: |
-          pyinstaller --onefile main.py
+          pyinstaller --onefile main.py --name wsjt_log_analyzer
         # This will create a dist/main.exe file
 
       - name: Upload .exe to release
         uses: softprops/action-gh-release@v1
         with:
-          files: dist/main.exe
+          files: dist/wsjt_log_analyzer.exe
         env:
           GITHUB_TOKEN: ${{ secrets.GH_PAT }}
