@@ -33,4 +33,4 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           name: wsjt_log_analyzer.exe
-          files: dist/main.exe
+          path: dist/main.exe
