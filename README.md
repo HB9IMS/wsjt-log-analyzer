@@ -15,7 +15,7 @@ Running is relatively simple:
 
 `python3 main.py <Path to your log file>`
 or if you are running the .exe file
-`main.exe <Path to your log file>`
+`wsjt_log_analyzer.exe <Path to your log file>`
 
 ## Known issues
 
